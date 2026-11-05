@@ -1,0 +1,26 @@
+{
+  "name": "async-queue",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "dev": "tsx src/main.ts",
+    "dev:watch": "tsx --watch src/main.ts",
+    "build": "tsc",
+    "start": "npm run build && node dist/main.js",
+    "test:watch" : "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.6.6",
+    "@typescript/native": "npm:typescript@^7.0.2",
+    "jest": "^30.5.2",
+    "ts-jest": "^29.4.15",
+    "tsx": "^4.23.15",
+    "typescript": "npm:@typescript/typescript6@^6.0.2"
+  }
+}
